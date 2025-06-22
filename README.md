@@ -2,6 +2,8 @@
 
 This bot is designed to run shiny checks in the game Pokémon. The point of this project was not to create a bot that will shiny hunt for me — it was to create an assistant that will help keep a Twitch chat company while the streamer is away.
 
+This program is a proof of concept. When testing I write example messages into a notepad and scroll through it to simulate what the bot would see in a twitch chat. It reads the messages and drafts its reponses based on what is typed by chat.
+
 ClaudeBot is powered by an easy-to-run local LLM called LLaMA. It makes calls to the LLM while the gameplay loop of the shiny hunt is running.
 
 ClaudeBot is prompted to keep a Pokémon theme and only respond to user messages in the chat, while not repeating old messages. This ensures a small viewer stream is not spammed by just one message and Claude responding to itself.
